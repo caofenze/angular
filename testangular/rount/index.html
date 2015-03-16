@@ -1,0 +1,62 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html ng-app="scotchApp" id="ng-app" xmlns:ng="http://angularjs.org">
+<head>
+  <!-- SCROLLS -->
+  <!-- load bootstrap and fontawesome via CDN -->
+  <link rel="stylesheet" href="bootstrap.min.css" />
+<!--[if lte IE 8]>
+        <script>
+          document.createElement('ng-include');
+          document.createElement('ng-pluralize');
+          document.createElement('ng-view');
+
+          // Optionally these for CSS
+          document.createElement('ng:include');
+          document.createElement('ng:pluralize');
+          document.createElement('ng:view');
+        </script>
+      <![endif]-->
+
+  <!-- SPELLS -->
+  <!-- load angular via CDN -->
+  <script src="jquery-1.11.1.min.js"></script>
+  <script src="../angular.js"></script>
+  <script src="../angular-resource.min.js"></script>
+  <script src="../angular-route.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body ng-controller="mainController">
+
+  <!-- HEADER AND NAVBAR -->
+  <header>
+    <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Angular Routing Example</a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
+        <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+      </ul>
+    </div>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT AND INJECTED VIEWS -->
+  <div id="main">
+    <div ng-view></div>
+    <!-- angular templating -->
+    <!-- this is where content will be injected -->
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="text-center">
+    View the tutorial on <a href="http://scotch.io/tutorials/angular-routing-and-templating-tutorial">Scotch.io</a>
+  </footer>
+
+</body>
+</html>

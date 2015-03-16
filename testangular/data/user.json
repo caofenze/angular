@@ -1,0 +1,23 @@
+{
+	"status":0,
+	"statusInfo" : "正常",
+	"data" : 
+	{
+		"user_code" : "10239101",
+		"name" : "张三",
+		"sex" : "male",
+		"mentor_name" : "李四",
+		"city_name" : "北京",
+		"org_path" : "京北-房山区-房山店A组",
+		"score" : "1200",
+		"score_min" : "1000",
+		"score_max" : "2000",
+		"level" : "A3",
+		"title" : "店经理",
+		"title_tag" : 1,
+		"month_begin_score" : "2000",
+		"estimate_score" : "20000"
+	}
+		
+	
+}

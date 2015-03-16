@@ -1,0 +1,22 @@
+<!doctype html>
+<html> 
+<head>
+<script src="angular.js"></script> 
+
+</head>
+<body>
+
+	<div ng-app="myApp">
+		<div ng-controller="action">
+			<input ng-model="expr" placeholder="Enter a expression"/>
+			<h2>{{parseValue}}</h2>
+		</div>
+		<div ng-controller="email">
+			<input ng-model="to" type="email" placeholder="enter msg">
+			<textarea ng-model="emailBody"></textarea>
+			<pre>{{previewText}}</pre>
+		</div>
+	</div>
+	<script src="express.js"></script>
+</body>
+</html>

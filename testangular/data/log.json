@@ -1,0 +1,95 @@
+{
+    "status" : 0,
+    "statusInfo" : "1正常",
+    "data" : {
+        
+        "user_code" : "10011202",
+        "citys" : {
+            "110000" : "北京",
+            "120000" : "上海"
+        },
+        "types" : {
+            "admin" : "管理员奖惩",
+            "jichufen" : "基础分"
+        },
+        "record" :[
+                {
+                    "id" : 1,
+                    "city_name" : "北京",
+                    "create_time" : "2014-01-09",
+                    "type" : "修改内容",
+                    "reason" : "修改原因",
+                    "score" : "200",
+                    "op_name" : "fenfen",
+                    "op_user_code" : "20098272",
+                    "status" : "0"
+                },
+                {
+                    "id" : 1,
+                    "city_name" : "北京",
+                    "create_time" : "2014-01-09",
+                    "type" : "修改内容",
+                    "reason" : "修改原因",
+                    "score" : "200",
+                    "op_name" : "fenfen",
+                    "op_user_code" : "20098272",
+                    "status" : "0"
+                },
+                {
+                    "id" : 1,
+                    "city_name" : "北京",
+                    "create_time" : "2014-01-09",
+                    "type" : "修改内容",
+                    "reason" : "修改原因",
+                    "score" : "200",
+                    "op_name" : "fenfen",
+                    "op_user_code" : "20098272",
+                    "status" : "0"
+                },
+                {
+                    "id" : 1,
+                    "city_name" : "北京",
+                    "create_time" : "2014-01-09",
+                    "type" : "修改内容",
+                    "reason" : "修改原因",
+                    "score" : "200",
+                    "op_name" : "fenfen",
+                    "op_user_code" : "20098272",
+                    "status" : "0"
+                },
+                {
+                    "id" : 1,
+                    "city_name" : "北京",
+                    "create_time" : "2014-01-09",
+                    "type" : "修改内容",
+                    "reason" : "修改原因",
+                    "score" : "200",
+                    "op_name" : "fenfen",
+                    "op_user_code" : "20098272",
+                    "status" : "0"
+                },
+                {
+                    "id" : 1,
+                    "city_name" : "北京",
+                    "create_time" : "2014-01-09",
+                    "type" : "修改内容",
+                    "reason" : "修改原因",
+                    "score" : "200",
+                    "op_name" : "fenfen",
+                    "op_user_code" : "20098272",
+                    "status" : "0"
+                },
+                {
+                    "id" : 1,
+                    "city_name" : "北京",
+                    "create_time" : "2014-01-09",
+                    "type" : "修改内容",
+                    "reason" : "修改原因",
+                    "score" : "200",
+                    "op_name" : "fenfen",
+                    "op_user_code" : "20098272",
+                    "status" : "0"
+                }
+        ]
+    }
+}
